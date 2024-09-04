@@ -16,7 +16,6 @@ return new class extends Migration
             $table->string('name');
             $table->string('mime-type');
             $table->string('filepath');
-            $table->string('thumbnail')->nullable();
             $table->string('tags')->nullable();
             $table->timestamps();
         });

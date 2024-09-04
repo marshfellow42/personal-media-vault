@@ -13,6 +13,6 @@ class CardController extends Controller
         $contents = Content::all(); // Adjust the number to control pagination size
 
         // Pass the data to the view
-        return view('index', ['contents' => $contents]);
+        return view('home', ['contents' => $contents]);
     }
 }

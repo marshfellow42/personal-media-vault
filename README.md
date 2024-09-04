@@ -13,9 +13,9 @@
 <a id="sobre"></a>
 ## 🔖 Sobre 
 
-- Este repositório é um CRUD feito em PHP com a utilização do Framework Laravel.
+- Este repositório é um sistema de enviar arquivos feito em PHP com a utilização do Framework Laravel.
 
-- A idéia do projeto foi apresentada em um trabalho da faculdade, onde era necessário desenvolver um <b>software para agentamento de consultas médicas.</b>
+- A ideia do projeto foi criada por uma necessidade de criar um <b>website em que o usuário poderia enviar qualquer tipo de arquivo que ele quiser.</b> Para ficar a mostra para aqueles que desejam visualizar e baixar. Sem a necessidade de ter um sistema complexo por trás.
 
 <a id="tecnologias-utilizadas"></a>
 ## 🚀 Tecnologias Utilizadas
@@ -29,21 +29,16 @@
 
 - Cadastro, Edição, Visualização e Remoção (CRUD):
   - Usuários
-  - Consultas
-  - Pacientes
-  - Médicos
-  - Especialidades
-- Relatório PDF: 
-  - Consultas
-  - Pacientes
-  - Médicos
-  - Especialidades
+  - Arquivos
 
 <a id="como-usar"></a>
 ## ⚡ Como usar
 
 - Clone esse repositório: `git clone https://github.com/marshfellow42/personal-media-vault.git`
+- Entre na pasta clonada
+- Abra o seu Terminal (CMD ou Powershell)
 - Instale o Composer na sua máquina
+- Instale o NPM na sua máquina
 - Instale as dependências: `composer install`
 - Abra o XAMPP ou o Laragon
 - Execute o MySQL
@@ -52,6 +47,9 @@
   - Colação: `utf8mb4_unicode_ci`
 - Execute as migrations do Banco de Dados: `php artisan migrate`
 - Começe a aplicação: `php artisan serve`
+- Abra outro Terminal dentro da mesma pasta
+- Instale as dependências do NPM: `npm install`
+- Começe a aplicação pelo NPM: `npm run dev`
 
 <a id="como-contribuir"></a>
 ## ♻️ Como contribuir

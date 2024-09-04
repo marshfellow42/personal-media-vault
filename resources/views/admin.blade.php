@@ -37,11 +37,6 @@
                                 <input class="form-control" type="file" name="file" required>
                             </div>
 
-                            <div class="mb-3">
-                                <label class="form-label">Senha do administrador</label>
-                                <input type="password" class="form-control" name="password" placeholder="Insira a senha aqui" required>
-                            </div>
-
                             <!--
                             <div class="mb-3">
                                 <label class="form-label">Tags (opcional)</label>

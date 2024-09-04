@@ -9,5 +9,5 @@ class Content extends Model
     // Specify the custom table name
     protected $table = 'media';
 
-    protected $fillable = ['name', 'mime-type', 'filepath', 'thumbnail', 'tags'];
+    protected $fillable = ['name', 'mime-type', 'filepath', 'tags'];
 }
